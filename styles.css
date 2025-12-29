@@ -3,5 +3,14 @@ body {
 margin: 0;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 background: #696969;
+}
+
+header {
+    background: linear-gradient(to right, #696969, #696969);
+padding: 20px;
+}
+header h1{
+    margin: 0;
+}
 
 
