@@ -20,5 +20,22 @@ nav a{
     text-decoration: underline;
     margin-right: 5px;
 }
-
+main{
+    padding: 20px;
+}
+.presentation{
+    background: #708090;
+    padding: 20px;
+    border: 2px;
+}
+.perfil{
+    margin-top: 15px;
+}
+.perfil img{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px; solid #0033cc;
+}
 
