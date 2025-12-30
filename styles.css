@@ -1,5 +1,5 @@
 *{
-    background-color:seagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
 
@@ -16,6 +16,7 @@ font-size: 16px;
 header {
     background: linear-gradient(to right, #696969, #696969);
 padding: 20px;
+color: crimson;
 }
 header h1{
     margin: 0;
@@ -58,5 +59,22 @@ font-size: 15px;
 color:2d6fbf;
 font-family:Arial, Helvetica, sans-serif ;
 }
+#mi-id {
+    font-size: large;
+}
+.start {
+    background-color: #669abc;
+}
+.mi-foto{
+    width: 15px;
+}
+body .card .card-title {
+  color: aquamarine;
+}
+
+#principal .nota p {
+  text-transform: capitalize;
+}
+
 
 
