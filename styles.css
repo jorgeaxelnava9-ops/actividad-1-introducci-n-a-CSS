@@ -98,6 +98,10 @@ p {
   color: #111827;              /* color del texto */
   background-color: #e5e7eb;   /* color de fondo */
 }
+h1 {
+  text-align: center;          /* left | right | center | justify */
+}
+
 
 
 
