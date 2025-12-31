@@ -103,11 +103,11 @@ h1 {
 }
 .card {
     width: 300px;
-    border:1px solid #ccc;
-    padding: 16px;
-    margin: 20px auto;
-    display: block;
-    tect-align: center;
+    border:2px solid #0f0f0f;
+    padding: 20px;
+    margin: 30px auto;
+    display:block;
+    text-align:center;
 }
 
 
