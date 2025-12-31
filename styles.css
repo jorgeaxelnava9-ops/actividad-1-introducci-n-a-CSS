@@ -99,7 +99,15 @@ p {
   background-color: #e5e7eb;   /* color de fondo */
 }
 h1 {
-  text-align: center;          /* left | right | center | justify */
+  text-align: justify;          /* left | right | center | justify */
+}
+.card {
+    width: 300px;
+    border:1px solid #ccc;
+    padding: 16px;
+    margin: 20px auto;
+    display: block;
+    tect-align: center;
 }
 
 
