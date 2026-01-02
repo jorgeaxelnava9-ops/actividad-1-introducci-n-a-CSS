@@ -135,7 +135,19 @@ p {
   color: red;
 }
 body {
-  font-family:'outfit', sans-serif;
+  font-family:'outfit', cursive;
+}
+body {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+.contenedor {
+    position: absolute;
+}
+
+.badge {
+    position: absolute;
+    left: 8px;
+    right: 8px;
 }
 
 
