@@ -116,6 +116,13 @@ body {
 span {
   color: black;
 }
+.main-heading {
+  color: rgb(240, 220, 0);
+}
+
+h1 {
+  color: blue;
+}
 
 
 
