@@ -109,6 +109,13 @@ h1 {
     display:block;
     text-align:center;
 }
+body {
+  color: blue;
+}
+
+span {
+  color: black;
+}
 
 
 
