@@ -140,16 +140,41 @@ body {
 body {
   font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
 }
-.contenedor {
-    position: static;
+.card {
+  position: relative;       /* IMPORTANTE */
+  width: 400px;
+  padding: 30px;
+  border: 3px solid #020202;
+  border-radius: 10px;
+  margin: 40px;
+  background-color: #9409b0;
 }
-
 .badge {
-    position: absolute;
-    left: 8px;
-    right: 8px;
-}
+  position: absolute;
+  top: 30px;
+  right: 10px;
 
+  background-color:darkgoldenrod;
+  color: rgb(5, 5, 5);
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.btn-float {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+
+  background-color: #93ed0b;
+  color: rgb(5, 5, 5);
+  font-size: 20px;
+  cursor: pointer;
+}
 
 
 
