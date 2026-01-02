@@ -123,7 +123,20 @@ span {
 h1 {
   color: blue;
 }
+p {
+  color: blue;
+}
 
+.destacado {
+  color: green !important;
+}
+
+#unico {
+  color: red;
+}
+body {
+  font-family:'outfit', sans-serif;
+}
 
 
 
