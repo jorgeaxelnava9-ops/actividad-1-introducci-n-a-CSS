@@ -145,7 +145,6 @@ p {
   background-color: #d20d0d;
 }
 .item-flex {
-  flex-grow: 1;
   width: 120px;
   height: 120px;
   padding: 20px;
