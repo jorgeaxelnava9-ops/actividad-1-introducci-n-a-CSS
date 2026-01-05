@@ -135,16 +135,18 @@ p {
 }
 
 
-.contenedor {
+.Flexbox {
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
   padding: 20px;
-  border: 2px solid rgb(248, 225, 14);
-  background-color: #93ed0b;
+  border: 2px solid rgb(18, 17, 17);
+  background-color: #d20d0d;
 }
 
 .item-flex {
   flex-grow: 1;
+  width: 120px;
+  height: 120px;
   padding: 20px;
   margin: 10px;
   background-color:#188b91;
