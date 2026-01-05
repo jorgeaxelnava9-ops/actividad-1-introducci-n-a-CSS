@@ -137,14 +137,13 @@ p {
 
 .Flexbox {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content:space-between;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
   padding: 20px;
   border: 2px solid rgb(18, 17, 17);
   background-color: #d20d0d;
 }
-
 .item-flex {
   flex-grow: 1;
   width: 120px;
@@ -155,8 +154,6 @@ p {
   border: 1px solid black;
   text-align: center;
 }
-
-
 .destacado {
   color: green;
 }
