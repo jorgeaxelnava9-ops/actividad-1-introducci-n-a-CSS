@@ -137,7 +137,9 @@ p {
 
 .Flexbox {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content:space-between;
   padding: 20px;
   border: 2px solid rgb(18, 17, 17);
   background-color: #d20d0d;
