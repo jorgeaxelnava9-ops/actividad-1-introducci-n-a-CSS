@@ -141,7 +141,7 @@ p {
 }
 .box-1{
   background: lightcoral;
-  position: sticky;
+  position: fixed;
   
 }
 .box-2{
