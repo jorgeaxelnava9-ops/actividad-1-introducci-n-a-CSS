@@ -10,6 +10,10 @@ body {
   background-color: #696969;
   color: #111827;
 }
+.logo {
+  height: 40px;   
+  width: auto;    
+}
 header {
   background: #696969;
   padding: 20px;
@@ -29,11 +33,11 @@ header {
   color: inherit;
 }
 .navbar_menu {
-  display: flex;
-  gap: 16px;
+  display:flex;
+  gap: 20px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding:0;
 }
 .navbar__menu a {
   text-decoration: none;
@@ -180,9 +184,31 @@ p {
   background: lightgreen;
   position: relative;
   top: 10px;
-
-
-
+}
+.site-footer {
+  padding: 24px 16px;
+  background-color: #020617;
+  color: #e5e7eb;
+}
+.footer__cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.site-footer h3,
+.site-footer h4 {
+  margin-bottom: 8px;
+}
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.site-footer a {
+  text-decoration: none;
+  color: #9ca3af;
 }
 
 

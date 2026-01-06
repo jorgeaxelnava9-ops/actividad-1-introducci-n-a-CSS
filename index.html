@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-
+    <script src="Main.js"></script>
     <title>Mi Blog Personal</title>
     <style>
       p {
         color:blue;
-        ]}
+    }
+
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,20 +18,48 @@
     
 </head>
 <body>
-<header class="site-header">
-      <nav class="nav-bar">
-        <a href="#" class="navbar_logo">MiSitio</a>
-        <ul class="navbar_menu">
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#contacto">Contacto</a></li>
+  <a class="skip-link" href="#Contenido">Saltar al contenido</a>
+<header class="site-header" id="top">
+      <nav class="nav-bar container" aria-label="Navegación Principal">
+        <a href="#Inicio" class="navbar_logo" aria-label="Ir a inicio">
+        <img src="guitar.svg" alt="Jorge Nava" class="logo"> 
+        
+        
+        <span>Jorge<span class="brand-dot">.dev</span></span> </a>
+        <div>
+             <ul class="navbar_menu">
+             
         </ul>
-        <a href="#cta" class="navbar__cta">Empezar</a>
+        <a href="#Contacto" class="navbar__cta">
+          <span class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+              <path d="M21 8l-9 6L3 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Hablemos
+        </a>
+        <button class="nav__toggle" id="navToggle"
+            aria-expanded="false" aria-controls="mobilePanel"
+            aria-label="Abrir menú">
+            <span class="sr-only">Abrir menú</span>
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+       </div>
+       <div class="nav__panel" id="mobilePanel" hidden>
+           <ul class="nav__panelList">
+            <li><a href="#inicio" class="panel-link">Inicio</a></li>
+             <li><a href="#servicios" class="panel-link">Servicios</a></li>
+             <li><a href="#contacto" class="panel-link">Contacto</a></li>
+             <li class="panel-divider"></li>
+            <li><a class="panel-cta" href="#contacto">Hablemos</a></li>
+          </ul>
+       </div>
+        
       </nav>
     </header>
 
 
-    <main id="Inicio" class="start">
+    <main id="Contenido" class="start">
         <section
             <h2>Soy Jorge Nava alumno de Devf</h2>
             <p>Estos son algunos datos sobre mi</p>
@@ -137,6 +166,31 @@
 <textarea id="mensaje" name="Mensaje" rows="4" required></textarea><br>
 <input type="submit" value="Enviar">
 </form>
+
+<footer class="site-footer">
+  <section class="footer__cols">
+    <div>
+      <h3>MiSitio</h3>
+      <p>Mi Blog Personal.</p>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <ul>
+        <li><a href="#terminos">Términos</a></li>
+        <li><a href="#privacidad">Privacidad</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Síguenos</h4>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">GitHub</a></li>
+      </ul>
+    </div>
+  </section>
+  <small>© 2025 · MiSitio</small>
+</footer>
+
 
 
 
