@@ -141,13 +141,12 @@ p {
 }
 .box-1{
   background: lightcoral;
-  position: static;
+  position: sticky;
   
 }
 .box-2{
   background: lightgreen;
-  position: static;
-  
+  position: fixed;
   top: 10px;
 
 
