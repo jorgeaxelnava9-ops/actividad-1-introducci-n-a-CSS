@@ -2,47 +2,60 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box;}
+  html{scroll-behavior: smooth;}
 body {
   font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
   font-size: 16px;
   background-color: #696969;
-  color: #111827;
+  color: #111827;}
+
+  :root{
+    --border: rgba(148,163,184.18);
+    --text:#e5e7eb;
+    --muted: #9ca3af;
+    --brand: #22c55e;
+    --shadow: 0 12px 30px rgba(0,0,0,.35);
+    --radius: 16px;
+}
+.actions{
+     width: min();
 }
 .logo {
   height: 40px;   
-  width: auto;    
-}
+  width: auto;    }
 header {
   background: #696969;
   padding: 20px;
-  color: rgb(7, 7, 7);
-}
+  color: rgb(7, 7, 7);}
 .site-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 12px 24px;
-  background-color: #020617;
-  color: #f9fafb;
-}
+  background-color: lightskyblue;
+  color: #f9fafb;}
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;}
 .navbar_logo {
-  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 20px;
   text-decoration: none;
-  color: inherit;
-}
+  font-weight: 700;
+  color: inherit;}
 .navbar_menu {
   display:flex;
   gap: 20px;
   list-style: none;
   margin: 10px;
-  padding:0;
-}
+  padding:0;}
 .navbar__menu a {
   text-decoration: none;
   color: #e5e7eb;
-}
+  gap: 12px;}
 .navbar__cta {
   padding: 8px 16px;
   border-radius: 999px;
@@ -50,64 +63,52 @@ header {
   color: #04101f;
   text-decoration: none;
   font-weight: 600;
-}
+  align-items: center;}
 header h1 {
   margin: 0;
-  text-align: center;
-}
+  text-align: center;}
 #menu-principal {
   background-color: #111827;
   color: white;
-  padding: 10px;
-}
+  padding: 10px;}
 nav {
   margin-top: 10px;
   display: flex;
-  gap: 10px;
-}
+  gap: 10px;}
 nav a {
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none;}
 nav a:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline;}
 main {
-  padding: 20px;
-}
+  padding: 20px;}
 .presentation {
   background-color: #708090;
   padding: 20px;
   border: 2px solid black;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px;}
 .perfil {
   margin-top: 15px;
-  text-align: center;
-}
+  text-align: center;}
 .perfil img {
   width: 150px;
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid black;
-}
+  border: 4px solid black;}
 h2,
 h3 {
-  margin-top: 20px;
-}
+  margin-top: 20px;}
 p {
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  font-family: Arial, Helvetica, sans-serif;}
 .caja {
   display: inline-block;
   width: 300px;
   padding: 10px;
   border: 2px solid black;
   margin: 20px auto;
-  background-color: #f2f2f2;
-}
+  background-color: #f2f2f2;}
 .card {
   position: relative;
   width: 400px;
@@ -117,8 +118,7 @@ p {
   margin: 40px auto;
   background-color: #9409b0;
   text-align: center;
-  color: white;
-}
+  color: white;}
 .badge {
   position: absolute;
   top: 10px;
@@ -127,8 +127,7 @@ p {
   color: black;
   padding: 5px 10px;
   font-size: 12px;
-  border-radius: 20px;
-}
+  border-radius: 20px;}
 .btn-float {
   position: absolute;
   bottom: 15px;
@@ -139,8 +138,7 @@ p {
   background-color: #93ed0b;
   border: none;
   font-size: 20px;
-  cursor: pointer;
-}
+  cursor: pointer;}
 .Flexbox {
   display: flex;
   justify-content: space-evenly;
@@ -148,8 +146,7 @@ p {
   height: 200px;
   padding: 20px;
   border: 2px solid rgb(18, 17, 17);
-  background-color: #d20d0d;
-}
+  background-color: #d20d0d;}
 .item-flex {
   width: 120px;
   height: 120px;
@@ -157,59 +154,43 @@ p {
   margin: 10px;
   background-color:#188b91;
   border: 1px solid black;
-  text-align: center;
-}
+  text-align: center;}
 .destacado {
-  color: green;
-}
-
+  color: green;}
 #unico {
-  color: red;
-}
-
+  color: red;}
 .main-heading {
-  color: rgb(240, 220, 0);
-
-}
+  color: rgb(240, 220, 0);}
 .Box{
   width: 150px;
-  height: 150px;
-}
+  height: 150px;}
 .box-1{
   background: lightcoral;
-  position: relative;
-  
-}
+  position: relative;}
 .box-2{
   background: lightgreen;
   position: relative;
-  top: 10px;
-}
+  top: 10px;}
 .site-footer {
   padding: 24px 16px;
   background-color: #020617;
-  color: #e5e7eb;
-}
+  color: #e5e7eb;}
 .footer__cols {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: space-between;
-  margin-bottom: 16px;
-}
+  margin-bottom: 16px;}
 .site-footer h3,
 .site-footer h4 {
-  margin-bottom: 8px;
-}
+  margin-bottom: 8px;}
 .site-footer ul {
   list-style: none;
   padding: 0;
-  margin: 0;
-}
+  margin: 0;}
 .site-footer a {
   text-decoration: none;
-  color: #9ca3af;
-}
+  color: #9ca3af;}
 
 
 
