@@ -7,9 +7,7 @@
     <script src="Main.js"></script>
     <title>Blog Personal</title>
     <style>
-      p {
-        color:black;
-    }
+      p {color:black;}
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,39 +17,29 @@
 <body>
   <a class="skip-link" href="#Contenido">Saltar al contenido</a>
 <header class="site-header" id="top">
-      <div class="navbar__actions">
-  <ul class="navbar_menu"></ul>
-<a href="#Inicio" class="navbar_logo" aria-label="Ir a inicio">
-   <img src="guitar.svg" alt="Jorge Nava" class="logo">
-    <span>Jorge<span class="brand-dot">.dev</span></span> </a>
-  <a href="#Contacto" class="navbar__cta">
-    <span class="icon" aria-hidden="true">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
-        <path d="M21 8l-9 6L3 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </span>
-    Hablemos
-  </a>
-
-  <button class="nav__toggle" id="navToggle"
-    aria-expanded="false"
-    aria-controls="mobilePanel"
-    aria-label="Abrir menú">
-    <span class="sr-only">Abrir menú</span>
-    <span class="burger" aria-hidden="true"></span>
-  </button>
-</div>
-
-    </header>
-
-
+  <nav class="nav-bar container">
+    <a href="#Inicio" class="navbar_logo">
+      <img src="guitar.svg" alt="Jorge Nava" class="logo">
+      <span>Jorge<span class="brand-dot">.dev</span></span>
+    </a>
+    <ul class="navbar_menu">
+      <li><a href="#Inicio">Inicio</a></li>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#Contacto">Contacto</a></li>
+    </ul>
+    <div class="navbar__actions">
+      <a href="#Contacto" class="navbar__cta">Hablemos</a>
+      <button class="nav__toggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </nav>
+</header>
     <main id="Contenido" class="start">
-        <section
+        <section>
             <h2>Soy Jorge Nava alumno de Devf</h2>
             <p>Estos son algunos datos sobre mi</p>
 
             <div class="Perfil">
-            <img src="foto jorge con baja resolucion.jpeg"> <alt="Foto de perfil">
+            <img src="foto jorge con baja resolucion.jpeg" alt="Foto de perfil">
         </div>
         </section>
         </main>
@@ -73,11 +61,11 @@
                 <li>Maratones de pelis y series</li>
                 <li>Salis al tianguis</li>
                 <li>Leer de vez en cuando</li>
-
+                </ul>
                 <h3>Mis redes sociales</h3>
                 <ol>
                 <li>Instagram: <a href="https://www.instagram.com/jorge_axelnava/" target="_blank" class="instagram">
-  Jorge Axel Nava </a> </li>
+  Jorge Axel Nava </a> </li></ol>
 
                 <li>GitHub: <a href="https://github.com/jorgeaxelnava9-ops" target="_blank" class="GitHub"> jorgeaxelnava9-ops</a></li>
 
@@ -129,21 +117,16 @@
 <h1>Position</h1>
 <div class="Box box-1"></div>
 <div class="Box box-2"></div>
-
-
-
-
-
-
 <h1>Soy parte del cuerpo del documento.</h1>
 <p>Pero puedo cambiar el color de un <span>elemento interno</span></p> 
 <h1 class="main-heading">Este es mi título</h1>
 <p style="color:red">Texto con estilo en línea</p>
-<p class="destacado" id="único">Este texto es...</p>
+<p class="destacado" id="unico">Este texto es...</p>
 
 <div id="Contacto">
 </div>
 <h2>Contactame</h2>
+<form>
 <label for="Nombre">Nombre:</label><br>
 <input type="text" id="Nombre" name="Nombre" required><br>
 <label for="Email">Correo electrónico:</label><br>
@@ -158,6 +141,7 @@
     <div>
       <h3>MiSitio</h3>
       <p>Mi Blog Personal.</p>
+    
     </div>
     <div>
       <h4>Links</h4>
