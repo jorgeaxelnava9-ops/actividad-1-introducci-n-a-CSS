@@ -23,13 +23,18 @@
       <span>Jorge<span class="brand-dot">.dev</span></span>
     </a>
     <ul class="navbar_menu">
-      <li><a href="#Inicio">Inicio</a></li>
-      <li><a href="#sobre-mi">Sobre mí</a></li>
-      <li><a href="#Contacto">Contacto</a></li>
-    </ul>
+      <li><a href="#Inicio" class="panel-link">Inicio</a></li>
+      <li><a href="#sobre-mi" class="panel-link">Sobre mí</a></li>
+      <li><a href="#Contacto" class="panel-link">Contacto</a></li>
+      <li class="panel-divider"></li></ul>
     <div class="navbar__actions">
       <a href="#Contacto" class="navbar__cta">Hablemos</a>
-      <button class="nav__toggle" aria-label="Abrir menú">☰</button>
+      <button class="nav__toggle" id="navToggle"
+       aria-expanded="false" aria-controls="mobilePanel"
+       aria-label="Abrir menú">
+       <span class="sr-only">Abrir menú</span>
+       <span class="burger" aria-hidden="true"></span>
+      </button>
     </div>
   </nav>
 </header>
